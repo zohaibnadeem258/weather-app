@@ -10,6 +10,7 @@ const Input = () => {
   const handleSearch = () => {
     dispatch(fetchWeather(city));
     dispatch(fetchForecast(city));
+    setCity('')
   };
 
   // Search on clicking enter key
