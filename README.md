@@ -1,8 +1,33 @@
-# React + Vite
+# Getting Started
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To get a local copy up and running follow these simple example steps.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+List of things you need to use and how to install them:
+
+* Install node locally or use this command:
+  ```sh
+  npm install npm@latest -g
+  ```
+
+## Installation & Running project
+
+Setup:
+
+1. Clone the repo
+```sh
+git clone https://github.com/zohaibnadeem258/weather-app.git
+```
+2. Install NPM packages
+```sh
+npm install
+```    
+3. Run the development server
+```sh
+npm run dev
+```
+
+To run the project you need to follow these steps.
+
+Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
